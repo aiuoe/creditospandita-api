@@ -1,0 +1,15 @@
+crones creditos panda
+Minuto	Hora	Día	Mes	Día de la semana	Comando
+0	0	*	*	*	/usr/local/bin/php -d register_argc_argv=1 /home/wgexegxp/public_html/admin/backend/artisan incomplete:info >> /dev/null 2>&1	    
+0	12	*	*	*	/usr/local/bin/php -d register_argc_argv=1 /home/wgexegxp/public_html/admin/backend/artisan firma:pendiente >> /dev/null 2>&1	    
+0	12	*	*	*	/usr/local/bin/php -d register_argc_argv=1 /home/wgexegxp/public_html/admin/backend/artisan firma:expirada >> /dev/null 2>&1	    
+0	12	*	*	*	/usr/local/bin/php -d register_argc_argv=1 /home/wgexegxp/public_html/admin/backend/artisan undia:pago >> /dev/null 2>&1	    
+0	1,12	*	*	*	/usr/local/bin/php -d register_argc_argv=1 /home/wgexegxp/public_html/admin-test/backend/artisan incomplete:info >> /dev/null 2>&1	    
+0	0	*	*	*	/usr/local/bin/php -d register_argc_argv=1 /home/wgexegxp/public_html/admin-test/backend/artisan firma:pendiente >> /dev/null 2>&1	    
+0	0	*	*	*	/usr/local/bin/php -d register_argc_argv=1 /home/wgexegxp/public_html/admin-test/backend/artisan firma:expirada >> /dev/null 2>&1	    
+0	0,12	*	*	*	/usr/local/bin/php -d register_argc_argv=1 /home/wgexegxp/public_html/admin-test/backend/artisan undia:pago >> /dev/null 2>&1	    
+0	0,12	*	*	*	/usr/local/bin/php -d register_argc_argv=1 /home/wgexegxp/public_html/admin-test/backend/artisan credito:moroso >> /dev/null 2>&1	    
+0	4	*	*	*	/usr/local/bin/php -d register_argc_argv=1 /home/wgexegxp/public_html/admin/backend/artisan credito:moroso >> /dev/null 2>&1	    
+0,30	*	*	*	*	/usr/local/bin/php -d register_argc_argv=1 /home/wgexegxp/public_html/admin-test/backend/artisan pendiente:novacion >> /dev/null 2>&1	    
+0,30	*	*	*	*	/usr/local/bin/php -d register_argc_argv=1 /home/wgexegxp/public_html/admin/backend/artisan pendiente:novacion >> /dev/null 2>&1	    
+0	0,12	*	*	*	/usr/local/bin/php -d register_argc_argv=1 /home/wgexegxp/public_html/admin/backend/artisan analisis:incompleto >> /dev/null

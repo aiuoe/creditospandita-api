@@ -1,0 +1,15 @@
+Array
+(
+    [0] => Array
+        (
+            [query] => select * from `passengers` where MONTH(birthdate) = ? and DAY(birthdate) = ? and `passengers`.`deleted_at` is null
+            [bindings] => Array
+                (
+                    [0] => 01
+                    [1] => 14
+                )
+
+            [time] => 2.91
+        )
+
+)
